@@ -1,4 +1,4 @@
-package localdate;
+package com.zeoblocks.learning.localdate;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

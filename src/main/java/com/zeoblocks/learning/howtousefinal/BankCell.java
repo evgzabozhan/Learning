@@ -1,4 +1,4 @@
-package howtousefinal;
+package com.zeoblocks.learning.howtousefinal;
 
 /**
  * Created with IntelliJ IDEA.

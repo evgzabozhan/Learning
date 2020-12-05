@@ -1,4 +1,4 @@
-package constructor;
+package com.zeoblocks.learning.constructor;
 
 /**
  * Created with IntelliJ IDEA.
@@ -29,15 +29,15 @@ public class Employee {
         return this.id;
     }
 
-    public String getName() {
+    public final String getName() {
         return this.name;
     }
 
-    public double getSalary() {
+    public final double getSalary() {
         return this.salary;
     }
 
-    public void setSalary(final double salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 }
