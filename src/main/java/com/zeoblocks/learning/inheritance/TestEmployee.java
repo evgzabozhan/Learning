@@ -6,6 +6,8 @@ package com.zeoblocks.learning.inheritance;
  * @author Evgeniy Zabozhan (evgzabozhan@gmail.com)
  * @version $
  * @since 1.0
+ *
+ * This is test class for testing employees
  */
 public class TestEmployee {
     public static void main(String[] args) {

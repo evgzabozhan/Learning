@@ -13,9 +13,22 @@ public class Manager extends Employee{
 
     private double bonus;
 
+    /**
+     *
+     * @param name Employee name
+     * @param lastName Employee last name
+     * @param salary Employee salary
+     * @param bonus Manager bonus
+     */
+
     public Manager(final String name, final String lastName, final double salary, final double bonus) {
         super(name, lastName, salary);
         this.bonus = bonus;
+    }
+
+    @Override
+    public double getSalary() {
+        return bonus + super.getSalary();
     }
 
     public double getBonus() {
@@ -44,10 +57,10 @@ public class Manager extends Employee{
     public String toString() {
         return "Manager{" +
             "id=" + getId() +
-            "\nbonus=" + bonus +
-            "\nname=" + getName() +
-            "\nlastName=" + getLastName() +
-            "\nsalary=" + getSalary() +
+            " bonus=" + bonus +
+            " name=" + getName() +
+            " lastName=" + getLastName() +
+            " salary=" + getSalary() +
             '}';
     }
 }
