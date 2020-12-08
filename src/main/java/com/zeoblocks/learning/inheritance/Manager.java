@@ -57,7 +57,6 @@ public class Manager extends Employee{
     public String toString() {
         return "Manager{" +
             "id=" + getId() +
-            " bonus=" + bonus +
             " name=" + getName() +
             " lastName=" + getLastName() +
             " salary=" + getSalary() +
