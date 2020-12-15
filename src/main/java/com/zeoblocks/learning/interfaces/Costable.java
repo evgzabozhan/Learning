@@ -10,4 +10,8 @@ package com.zeoblocks.learning.interfaces;
 public interface Costable {
 
     double costable();
+
+    default int cost(){
+        return 100;
+    }
 }

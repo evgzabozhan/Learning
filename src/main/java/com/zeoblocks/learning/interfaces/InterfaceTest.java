@@ -12,6 +12,7 @@ public class InterfaceTest {
     public static void main(String[] args) {
         Costable truck = new TruckCar("KAMAZ",200,100);
         Costable sport = new SportCar("Lamb",1000,400);
+        System.out.println(sport.cost());
 
         System.out.println(truck.costable());
         System.out.println(sport.costable());
