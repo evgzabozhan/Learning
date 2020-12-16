@@ -20,6 +20,7 @@ public class InterfaceTest {
         System.out.println(truck.costable());
         System.out.println(sport.costable());
         System.out.println(superCar.costable());
+        System.out.println(superCar.costable());
     }
 
 }
