@@ -10,5 +10,7 @@ public class Lyambda {
         Arrays.sort(words,(first,second) ->first.length() - second.length());
         Arrays.sort(words, Comparator.comparingInt(String::length));
 
+        System.out.println("Git init");
+
     }
 }
